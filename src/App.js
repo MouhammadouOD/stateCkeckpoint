@@ -15,28 +15,7 @@ class App extends React.Component{
 
   
   toggle = ()=>{(this.state.shows===true)? this.setState({shows:false}):this.setState({shows:true});}
-
-  //-----------------------------------------------
-
-
-  //-----------------------------------------------
-  /*componentDidMount(){
-     var intervalId = setInterval(()=> this.timer, 1000);
-   // store intervalId in the state so it can be accessed later:
-   this.setState({intervalId: intervalId});
-  }
-
-  componentWillUnmount(){
-    // use intervalId from the state to clear the interval
-   clearInterval(this.state.intervalId);
-  }
-
-  timer(){
-    var newCount = this.state.currentCount + 1;
-    // setState method is used to update the state
-   this.setState({ currentCount: newCount });
-  }*/
-
+  
   render(){
 
     
